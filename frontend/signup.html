@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup - AI Study Planner</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="auth-page">
+    <form class="auth-card" id="signupForm">
+      <a href="index.html" class="back-link">← Home</a>
+      <h2>Create Account</h2>
+      <p>Start managing your study routine.</p>
+
+      <label>Name</label>
+      <input type="text" id="name" placeholder="Enter name" required />
+
+      <label>Email</label>
+      <input type="email" id="email" placeholder="Enter email" required />
+
+      <label>Password</label>
+      <input type="password" id="password" placeholder="Minimum 6 characters" required />
+
+      <button class="btn" type="submit">Signup</button>
+      <p class="message" id="message"></p>
+      <p>Already have account? <a href="login.html">Login</a></p>
+    </form>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
